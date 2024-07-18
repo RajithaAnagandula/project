@@ -1,0 +1,1893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="projectsheets" href="project.css"> 
+    <style>
+                *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .container1{
+          display: flex;
+          position:relative;
+      }
+        .banner{
+            padding-right: 5px;
+        }
+        .img1{
+            width:830px ;
+            height:300px;
+            position: relative;
+
+        }
+        .para{
+            position: absolute;
+              top: 50px;
+              left: 50px;
+              font-size: small;
+              color: white;
+              border-bottom: 0.5px solid yellow;
+        }
+        #pre{
+            position: absolute;
+            top: 70px;
+            color: white;
+            font-size:20px;
+        }
+        #button{
+            position: absolute;
+            top: 150px;
+            background-color: transparent;
+            left: 40px;
+            color: white;
+            padding: 10px;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius:20px ;
+            border-top-left-radius:20px ;
+            border-bottom-right-radius: 20px;
+            border-color: whitesmoke;
+        }
+        .logo-container{
+            height: 300px;
+            width: 400px;
+            background-color: rgb(237, 177, 66);
+            position: relative;
+        }
+        .img2{
+            width: 90px;
+            height: 90px;
+            position: absolute;
+            left: 150px;
+            top: 30px;
+        }
+        H1{
+            position: absolute;
+            top: 120px;
+            left: 130px;
+            color: white;
+        }
+      .para-1{
+        position: absolute;
+        border-bottom: 1.5px solid white;
+        color: white;
+        top: 170px;
+        left: 110px;
+      }
+      .para-2{
+        position: absolute;
+        text-align-last:center ;
+        font-size: clamp(1rem 2.5vw 2rem);
+        color: white;
+        top: 200px;
+        left: 10px;
+      }
+    .container2{
+          position:relative;
+      }
+      .img3{
+        position: absolute;
+        height: 20rem;
+        width: 25rem;
+      }
+      .img4{
+        position: absolute;
+        left:10px;
+        top: 20px;
+        padding:19px;
+      }
+      .icon1{
+        position: absolute;
+           background-color: transparent;
+           width: 130px;
+           height: 130px;
+           border: 1.5px solid white;
+           border-radius: 50%;
+           top: 130px;
+           left: 120px;
+      }
+      #h1{
+        position: absolute;
+        font-size: small;
+        top:270px;
+    }
+    @media screen and (max-width:400px) {
+        .container1{
+          /* display: flex; */
+          display: block;
+          position:relative;
+      }
+        .banner{
+            padding-right: 5px;
+        }
+        .img1{
+            width:830px ;
+            height:300px;
+            position: relative;
+
+        }
+        .para{
+            position: absolute;
+              top: 50px;
+              left: 50px;
+              font-size: small;
+              color: white;
+              border-bottom: 0.5px solid yellow;
+        }
+        #pre{
+            position: absolute;
+            top: 70px;
+            color: white;
+            font-size:20px;
+        }
+        #button{
+            position: absolute;
+            top: 150px;
+            background-color: transparent;
+            left: 40px;
+            color: white;
+            padding: 10px;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius:20px ;
+            border-top-left-radius:20px ;
+            border-bottom-right-radius: 20px;
+            border-color: whitesmoke;
+        }
+        .logo-container{
+            height: 300px;
+            width: 400px;
+            background-color: rgb(237, 177, 66);
+            position: relative;
+        }
+        .img2{
+            width: 90px;
+            height: 90px;
+            position: absolute;
+            left: 150px;
+            top: 30px;
+        }
+        H1{
+            position: absolute;
+            top: 120px;
+            left: 130px;
+            color: white;
+        }
+      .para-1{
+        position: absolute;
+        border-bottom: 1.5px solid white;
+        color: white;
+        top: 170px;
+        left: 110px;
+      }
+      .para-2{
+        position: absolute;
+        text-align-last:center ;
+        font-size: clamp(1rem 2.5vw 2rem);
+        color: white;
+        top: 200px;
+        left: 10px;
+      }
+    .container2{
+          position:relative;
+      }
+      .img3{
+        position: absolute;
+        height: 20rem;
+        width: 25rem;
+      }
+      .img4{
+        position: absolute;
+        left:10px;
+        top: 20px;
+        padding:19px;
+      }
+      .icon1{
+        position: absolute;
+           background-color: transparent;
+           width: 130px;
+           height: 130px;
+           border: 1.5px solid white;
+           border-radius: 50%;
+           top: 130px;
+           left: 120px;
+      }
+      #h1{
+        position: absolute;
+        font-size: small;
+        top:270px;
+    }
+    }
+
+   
+
+            /* 2part of the css project */
+
+ 
+     
+        .container2{
+            display: flex;
+        }
+        .card{
+            margin-left: 10px;
+            background-color:rgb(218, 211, 211);
+            width:910px;
+            height: 350px;
+            position: relative;
+
+        }
+        .best4{
+            position: absolute;
+            z-index: 1;
+            top: 20px;
+            left: 15px;
+        }
+        .best4-1{
+            z-index: 0;
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1.5px solid white;
+            border-radius: 50%;
+            position:relative;
+            bottom: 200px;
+            left: 90px;
+        }
+        .best4-2{
+            color: white;
+            position:relative;
+            top: 120px;
+            left: -20px;
+            right: 100px;
+        }
+        .best1{
+            width: 300px;
+            height: 350px;
+        }
+        .best2{
+         position: absolute;
+         height: 200px;
+         left: 600px;
+         top: 50px;
+        }
+        .best3{
+            position: absolute;
+        }
+        .span1-1{
+            color: brown;
+        }
+        .pre1{
+            position: relative;
+            top: 50px;
+            left: 100px;
+            font-size: 30px;
+            font-weight:bolder;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .pre2{
+            position: relative;
+            top: 60px;
+            left: 100px;
+            font-size: 13px;
+            font-weight: 200;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .pre3{
+            position: relative;
+            top: 70px;
+            left: 60px;
+            color: gray;
+        }
+        .button-2{
+            border: 0;
+            height: 40px;
+            width: 130px;
+            color: white;
+            border-top-left-radius: 5em;
+            border-top-right-radius: 5em;
+            border-bottom-left-radius: 5em;
+            border-bottom-right-radius: 5em;
+            background-color: rgb(142, 55, 55);
+            position: relative;
+            top:80px;
+            left: 100px;
+        }
+
+        @media screen and (max-width:400px) {
+            .container2{
+            /* display: flex; */
+            display: block;
+        }
+        .card{
+            margin-left: 10px;
+            background-color:rgb(218, 211, 211);
+            width:910px;
+            height: 350px;
+            position: relative;
+
+        }
+        .best4{
+            position: absolute;
+            z-index: 1;
+            top: 20px;
+            left: 15px;
+        }
+        .best4-1{
+            z-index: 0;
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1.5px solid white;
+            border-radius: 50%;
+            position:relative;
+            bottom: 200px;
+            left: 90px;
+        }
+        .best4-2{
+            color: white;
+            position:relative;
+            top: 120px;
+            left: -20px;
+            right: 100px;
+        }
+        .best1{
+            width: 300px;
+            height: 350px;
+        }
+        .best2{
+         position: absolute;
+         height: 200px;
+         left: 600px;
+         top: 50px;
+        }
+        .best3{
+            position: absolute;
+        }
+        .span1-1{
+            color: brown;
+        }
+        .pre1{
+            position: relative;
+            top: 50px;
+            left: 100px;
+            font-size: 30px;
+            font-weight:bolder;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .pre2{
+            position: relative;
+            top: 60px;
+            left: 100px;
+            font-size: 13px;
+            font-weight: 200;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .pre3{
+            position: relative;
+            top: 70px;
+            left: 60px;
+            color: gray;
+        }
+        .button-2{
+            border: 0;
+            height: 40px;
+            width: 130px;
+            color: white;
+            border-top-left-radius: 5em;
+            border-top-right-radius: 5em;
+            border-bottom-left-radius: 5em;
+            border-bottom-right-radius: 5em;
+            background-color: rgb(142, 55, 55);
+            position: relative;
+            top:80px;
+            left: 100px;
+        }
+    }
+ 
+       /* 3rd part of the css project */
+             
+              
+                .container3{
+                  border: 2px solid red;
+              background-image: url("./events-bg.png");
+              height: 600px;
+              width: 98vw;
+              margin-top: -100px;
+              background-attachment: fixed;
+              background-size: cover;
+              border: 1px solid red;
+
+            }
+            
+            .img3-1{
+            position: relative;
+             width:100%;
+             height: 40rem;
+             background-size: cover;
+             background-position: center;
+           }
+
+
+
+            .botton31{
+                position: relative;
+
+            }
+            #button3-1{
+             border: 0;
+             width: 150px;
+             height: 40px;
+             background-color: white;
+             color: rgb(140, 106, 19);
+             position: absolute;
+             top:700px;
+             left: 20%;
+           }
+            #button3-2{
+             border: 0;
+             width: 150px;
+             height: 40px;
+             background-color: white;
+             position: absolute;
+             top:700px;
+             left: 35%;
+             margin-left: 10px;
+           }
+            #button3-3{
+             border: 0;
+             width: 150px;
+             height: 40px;
+             background-color: white;
+             position: absolute;
+             top:700px;
+             left: 50%;
+             margin-left: 20px;
+           }
+           #button3-4{
+             border: 0;
+             width: 150px;
+             height: 40px;
+             background-color: white;
+             position: absolute;
+             top:700px;
+             left: 65%;
+             margin-left: 10px;
+           }
+
+          .mainflex{
+            overflow: hidden;
+          }
+
+           
+           .div1{
+             width:950px;
+             height: 80px;
+             background-color:white;
+             position: relative;
+             top:150px;
+             left: 150px;
+            }
+            
+           .div2{
+             width:40px;
+             height: 40px;
+             background-color: rgb(177, 177, 93);
+             position: relative;
+             left: 20px;
+             top:20px;
+           }
+           .para3-1{
+             color: white;
+             position: absolute;
+             right: 11px;
+             top: 5px;
+           }
+           .para3-2{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             position:relative;
+             bottom: 15px;
+             right: -30px;
+           }
+           .para3-2-1{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             position: relative;
+             top: -25px;
+             right: -30px;
+           }
+           .button3-1{
+             border: 0;
+             border-top-left-radius:25px;
+             border-top-right-radius:25px;
+             border-bottom-left-radius:25px ;
+             border-bottom-right-radius:25px;
+             color: gray;
+             height: 30px;
+             position: relative;
+             left: 750px;
+             bottom: 120px;
+
+           }
+           .para3-3{
+            font-family: 'Times New Roman', Times, serif;
+            font-size:smaller;
+            color:gray;
+            position: relative;
+            left: 400px;
+            bottom: 80px;
+           }
+
+
+
+
+
+
+           .div1-1{
+             width:950px;
+             height: 80px;
+             background-color:rgb(170, 167, 167);
+             position: relative;
+             top:150px;
+             left: 150px;
+             border-bottom: 1.5px white;
+            }
+           .div2-1{
+             width:40px;
+             height: 40px;
+             background-color: rgb(177, 177, 93);
+             position: relative;
+             left: 20px;
+             top:20px;
+           }
+           .para3-1-1{
+             color: white;
+             position: absolute;
+             right: 11px;
+             top: 5px;
+           }
+           .para3-2-1{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             position:relative;
+             color: black;
+             bottom: 40px;
+             right: -50px;
+           }
+           .para3-2-1-1{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             color:brown;
+             position: relative;
+             bottom: 30px;
+             right: -60px;
+           }
+           .button3-1-1{
+             border: 0;
+             border-top-left-radius:25px;
+             border-top-right-radius:25px;
+             border-bottom-left-radius:25px ;
+             border-bottom-right-radius:25px;
+             color: gray;
+             height: 30px;
+             position: relative;
+             left: 750px;
+             bottom: 120px;
+
+           }
+           .para3-3-1{
+            font-family: 'Times New Roman', Times, serif;
+            font-size:smaller;
+            color:gray;
+            position: relative;
+            left: 420px;
+            bottom: 80px;
+           }
+
+
+
+
+
+
+           .div1-2{
+             width:950px;
+             height: 70px;
+             background-color:white;
+             position: relative;
+             top:130px;
+             left: 150px;
+            }
+           .div2-2{
+             width:40px;
+             height: 40px;
+             background-color: rgb(177, 177, 93);
+             position: relative;
+             left: 20px;
+             top:20px;
+           }
+           .para3-1-2{
+             color: white;
+             position: absolute;
+             right: 11px;
+             top: 5px;
+           }
+           .para3-2-2{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             position:relative;
+             bottom: 20px;
+             right: -60px;
+           }
+           .para3-2-1-2{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             color:brown;
+             position: relative;
+             bottom: 30px;
+             right: -60px;
+           }
+           .button3-1-2{
+             border: 0;
+             border-top-left-radius:25px;
+             border-top-right-radius:25px;
+             border-bottom-left-radius:25px ;
+             border-bottom-right-radius:25px;
+             color: gray;
+             height: 30px;
+             position: relative;
+             left: 750px;
+             bottom: 130px;
+
+           }
+           .para3-3-2{
+            font-family: 'Times New Roman', Times, serif;
+            font-size:smaller;
+            color:gray;
+            position: relative;
+            left: 420px;
+            bottom: 70px;
+           }
+
+
+
+
+
+
+           .div1-3{
+             width:950px;
+             height: 200px;
+             background-color:rgb(182, 180, 180);
+             position: relative;
+            top:130px;
+             left: 150px;
+            }
+            .div2-3{
+             width:40px;
+             height: 40px;
+             background-color: rgb(177, 177, 93);
+             position: relative;
+             left: 20px;
+             top:20px;
+           }
+           .para3-1-3{
+             color: white;
+             position: absolute;
+             right: 11px;
+             top: 5px;
+           }
+           .para3-2-3{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             position:relative;
+             bottom: 20px;
+             right: -60px;
+           }
+           .para3-2-1-3{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             color:brown;
+             position: relative;
+             bottom: 30px;
+             right: -60px;
+           }
+           .button3-1-3{
+             border: 0;
+             border-top-left-radius:25px;
+             border-top-right-radius:25px;
+             border-bottom-left-radius:25px ;
+             border-bottom-right-radius:25px;
+             color: gray;
+             height: 30px;
+             position: relative;
+             left: 750px;
+             bottom: 120px;
+
+           }
+           .para3-3-3{
+            font-family: 'Times New Roman', Times, serif;
+            font-size:smaller;
+            color:gray;
+            position: relative;
+            left: 420px;
+            bottom: 70px;
+           }
+
+           @media screen and (max-width:400px){
+            .container3{
+              background-image: url("./events-bg.png");
+              height: 600px;
+              width: 100%;
+              margin-top: -100px;
+              overflow-x: hidden;
+              background-attachment: fixed;
+            }
+            .event1{
+             position: relative;
+            }
+            .img3-1{
+            position: relative;
+             width:100%;
+             height: 40rem;
+             background-size: cover;
+             background-position: center;
+             overflow-x: hidden;
+           }
+
+
+
+            .botton31{
+                position: relative;
+            }
+            #button3-1{
+             border: 0;
+             width: 150px;
+             height: 40px;
+             background-color: white;
+             color: rgb(140, 106, 19);
+             position: absolute;
+             top:700px;
+             left: 300px;
+           }
+            #button3-2{
+             border: 0;
+             width: 150px;
+             height: 40px;
+             background-color: white;
+             position: absolute;
+             top:700px;
+             left: 450px;
+             margin-left: 10px;
+           }
+            #button3-3{
+             border: 0;
+             width: 150px;
+             height: 40px;
+             background-color: white;
+             position: absolute;
+             top:700px;
+             right: 450px;
+             margin-left: 20px;
+           }
+           #button3-4{
+             border: 0;
+             width: 150px;
+             height: 40px;
+             background-color: white;
+             position: absolute;
+             top:700px;
+             right: 290px;
+             margin-left: 10px;
+           }
+
+
+
+
+           .div1{
+             width:950px;
+             height: 80px;
+             background-color:white;
+             position: relative;
+             top: 130px;
+             left: 150px;
+            }
+           .div2{
+             width:40px;
+             height: 40px;
+             background-color: rgb(177, 177, 93);
+             position: relative;
+             left: 20px;
+             top:20px;
+           }
+           .para3-1{
+             color: white;
+             position: absolute;
+             right: 11px;
+             top: 5px;
+           }
+           .para3-2{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             position:relative;
+             bottom: 15px;
+             right: -30px;
+           }
+           .para3-2-1{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             position: relative;
+             top: -25px;
+             right: -30px;
+           }
+           .button3-1{
+             border: 0;
+             border-top-left-radius:25px;
+             border-top-right-radius:25px;
+             border-bottom-left-radius:25px ;
+             border-bottom-right-radius:25px;
+             color: gray;
+             height: 30px;
+             position: relative;
+             left: 750px;
+             bottom: 120px;
+
+           }
+           .para3-3{
+            font-family: 'Times New Roman', Times, serif;
+            font-size:smaller;
+            color:gray;
+            position: relative;
+            left: 400px;
+            bottom: 80px;
+           }
+
+
+
+
+
+
+           .div1-1{
+             width:950px;
+             height: 80px;
+             background-color:rgb(170, 167, 167);
+             position: relative;
+             bottom: 390px;
+             left: 150px;
+             border-bottom: 1.5px white;
+            }
+           .div2-1{
+             width:40px;
+             height: 40px;
+             background-color: rgb(177, 177, 93);
+             position: relative;
+             left: 20px;
+             top:20px;
+           }
+           .para3-1-1{
+             color: white;
+             position: absolute;
+             right: 11px;
+             top: 5px;
+           }
+           .para3-2-1{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             position:relative;
+             color: black;
+             bottom: 40px;
+             right: -50px;
+           }
+           .para3-2-1-1{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             color:brown;
+             position: relative;
+             bottom: 30px;
+             right: -60px;
+           }
+           .button3-1-1{
+             border: 0;
+             border-top-left-radius:25px;
+             border-top-right-radius:25px;
+             border-bottom-left-radius:25px ;
+             border-bottom-right-radius:25px;
+             color: gray;
+             height: 30px;
+             position: relative;
+             left: 750px;
+             bottom: 120px;
+
+           }
+           .para3-3-1{
+            font-family: 'Times New Roman', Times, serif;
+            font-size:smaller;
+            color:gray;
+            position: relative;
+            left: 420px;
+            bottom: 80px;
+           }
+
+
+
+
+
+
+           .div1-2{
+             width:950px;
+             height: 80px;
+             background-color:white;
+             position: relative;
+             bottom: 390px;
+             left: 150px;
+            }
+           .div2-2{
+             width:40px;
+             height: 40px;
+             background-color: rgb(177, 177, 93);
+             position: relative;
+             left: 20px;
+             top:20px;
+           }
+           .para3-1-2{
+             color: white;
+             position: absolute;
+             right: 11px;
+             top: 5px;
+           }
+           .para3-2-2{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             position:relative;
+             bottom: 20px;
+             right: -60px;
+           }
+           .para3-2-1-2{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             color:brown;
+             position: relative;
+             bottom: 30px;
+             right: -60px;
+           }
+           .button3-1-2{
+             border: 0;
+             border-top-left-radius:25px;
+             border-top-right-radius:25px;
+             border-bottom-left-radius:25px ;
+             border-bottom-right-radius:25px;
+             color: gray;
+             height: 30px;
+             position: relative;
+             left: 750px;
+             bottom: 130px;
+
+           }
+           .para3-3-2{
+            font-family: 'Times New Roman', Times, serif;
+            font-size:smaller;
+            color:gray;
+            position: relative;
+            left: 420px;
+            bottom: 70px;
+           }
+
+
+
+
+
+
+           .div1-3{
+             width:950px;
+             height: 80px;
+             background-color:rgb(182, 180, 180);
+             position: relative;
+            bottom: 400px;
+             left: 150px;
+            }
+           .div2-3{
+             width:40px;
+             height: 40px;
+             background-color: rgb(177, 177, 93);
+             position: relative;
+             left: 20px;
+             top:20px;
+           }
+           .para3-1-3{
+             color: white;
+             position: absolute;
+             right: 11px;
+             top: 5px;
+           }
+           .para3-2-3{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             position:relative;
+             bottom: 20px;
+             right: -60px;
+           }
+           .para3-2-1-3{
+             font-family: 'Times New Roman', Times, serif;
+             font-size:smaller;
+             color:brown;
+             position: relative;
+             bottom: 30px;
+             right: -60px;
+           }
+           .button3-1-3{
+             border: 0;
+             border-top-left-radius:25px;
+             border-top-right-radius:25px;
+             border-bottom-left-radius:25px ;
+             border-bottom-right-radius:25px;
+             color: gray;
+             height: 30px;
+             position: relative;
+             left: 750px;
+             bottom: 120px;
+
+           }
+           .para3-3-3{
+            font-family: 'Times New Roman', Times, serif;
+            font-size:smaller;
+            color:gray;
+            position: relative;
+            left: 420px;
+            bottom: 70px;
+           }
+           }
+           
+    
+
+               /* 4rd part of the css project */
+
+
+        .container4{
+            display: flex;
+            /* margin-top: px; */
+        }
+        .card1{
+            position: relative;
+        }
+        .test1{
+            height: 400px;
+        }
+        .test2{
+            height: 400px;
+            width: 820px;
+            position: relative;
+        }
+        .test3{
+            position: absolute;
+            top: 1300px;
+            left: 700px;
+        }
+        .para4-1{
+            color: red;
+            position: absolute;
+            top: 1450px;
+            left:45rem;
+        }
+        .para4-2{
+            position: absolute;
+            color: black;
+            top: 92rem;
+            left: 42rem;
+        }
+       .para4-3{
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+            top: 95rem;
+            right: 60px;
+            text-align-last: center;
+       }
+       .uls{
+        display:flex;
+        color: brown;
+       }
+       @media screen and (max-width:400px){
+        .container4{
+            /* display: flex; */
+            display: block;
+            margin-top: -235px;
+        }
+        .card1{
+            position: relative;
+        }
+        .test1{
+            height: 400px;
+        }
+        .test2{
+            height: 400px;
+            width: 820px;
+            position: relative;
+        }
+        .test3{
+            position: absolute;
+            top: 1300px;
+            left: 700px;
+        }
+        .para4-1{
+            color: red;
+            position: absolute;
+            top: 1450px;
+            left:45rem;
+        }
+        .para4-2{
+            position: absolute;
+            color: black;
+            top: 92rem;
+            left: 42rem;
+        }
+       .para4-3{
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+            top: 95rem;
+            right: 60px;
+            text-align-last: center;
+       }
+       .uls{
+        display:flex;
+        color: brown;
+       }
+       }
+
+
+             /* 5th part of the css project */
+
+             .container5{
+            display:inline-flex;
+            position: relative;
+        }
+        .box1{
+             width: 303px;
+             height: 300px;
+             background-color:rgb(223, 185, 57);
+             position: relative;
+        }
+        .border1{
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1.5px solid white;
+            border-radius: 50%;
+            position:absolute;
+            top: 50px;
+            left: 100px;
+        }
+        .img5-1{
+            position:absolute;
+            top: 23px;
+            left: 10px;
+        }
+        .box2{
+            width:303px;
+            height: 300px;
+            background-color:rgb(231, 156, 17);
+            position: relative;
+        }
+        .border2{
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1.5px solid white;
+            border-radius: 50%;
+            position:absolute;
+            top: 50px;
+            left: 100px;
+          
+        }
+        .img5-2{
+            position:absolute;
+            top: 7px;
+            left: 8px;
+        }
+        .box3{
+            width: 303px;
+            height: 300px;
+            background-color:rgb(141, 69, 69);
+            position: relative;
+        }
+        .border3{
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1.5px solid white;
+            border-radius: 50%;
+            position:absolute;
+            top: 50px;
+            left: 100px;
+           }
+           .img5-3{
+            position:absolute;
+            top: 23px;
+            left: 10px;
+        }
+        .box4{
+            width: 303px;
+            height: 300px;
+            background-color:rgb(197, 103, 103);
+            position: relative;
+        } 
+        .border4{
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1.5px solid white;
+            border-radius: 50%;
+            position:absolute;
+            top: 50px;
+            left: 100px;
+        }
+        .img5-4{
+            position:absolute;
+            top: 23px;
+            left: 10px;
+        }
+        .h1{
+            font-size: small;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            top: 120px;
+        }
+        .h2{
+            font-size: small;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            top: 120px;
+        }
+        .h3{
+            font-size: small;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            top: 120px;
+        }
+        .h4{
+            font-size: small;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            top: 120px;
+        }
+        @media screen and (max-width:400px){
+            .container5{
+            /* display:inline-flex; */
+            display: block;
+            position: relative;
+        }
+        .box1{
+             width: 303px;
+             height: 300px;
+             background-color:rgb(223, 185, 57);
+             position: relative;
+        }
+        .border1{
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1.5px solid white;
+            border-radius: 50%;
+            position:absolute;
+            top: 50px;
+            left: 100px;
+        }
+        .img5-1{
+            position:absolute;
+            top: 23px;
+            left: 10px;
+        }
+        .box2{
+            width:303px;
+            height: 300px;
+            background-color:rgb(231, 156, 17);
+            position: relative;
+        }
+        .border2{
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1.5px solid white;
+            border-radius: 50%;
+            position:absolute;
+            top: 50px;
+            left: 100px;
+          
+        }
+        .img5-2{
+            position:absolute;
+            top: 7px;
+            left: 8px;
+        }
+        .box3{
+            width: 303px;
+            height: 300px;
+            background-color:rgb(141, 69, 69);
+            position: relative;
+        }
+        .border3{
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1.5px solid white;
+            border-radius: 50%;
+            position:absolute;
+            top: 50px;
+            left: 100px;
+           }
+           .img5-3{
+            position:absolute;
+            top: 23px;
+            left: 10px;
+        }
+        .box4{
+            width: 303px;
+            height: 300px;
+            background-color:rgb(197, 103, 103);
+            position: relative;
+        } 
+        .border4{
+            width: 100px;
+            height: 100px;
+            background-color: transparent;
+            border: 1.5px solid white;
+            border-radius: 50%;
+            position:absolute;
+            top: 50px;
+            left: 100px;
+        }
+        .img5-4{
+            position:absolute;
+            top: 23px;
+            left: 10px;
+        }
+        .h1{
+            font-size: small;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            top: 120px;
+        }
+        .h2{
+            font-size: small;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            top: 120px;
+        }
+        .h3{
+            font-size: small;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            top: 120px;
+        }
+        .h4{
+            font-size: small;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            top: 120px;
+        }
+        }
+
+
+          /* 6th part of the css project */
+
+        .container6{
+            display: inline-flex;
+        }
+        .contact6-1{
+            width: 820px;
+            height: 200px;
+            position: relative;
+        }
+        .contact6-2{
+            width:250px;
+            height: 200px;
+            position: relative;
+            right: 10px;
+        }
+        .username{
+            border: 1.5px solid rgb(82, 77, 77);
+            border-bottom: 1.5px solid white;
+            width: 200px;
+            height: 30px;
+            background-color: transparent;
+            position: absolute;
+            top: 130px;
+            left: 100px;  
+        }
+        .email{
+           position: absolute;
+           border: 1.5px solid rgb(82, 77, 77);
+            border-bottom: 1.5px solid white;
+            width: 200px;
+            height: 30px;
+            background-color: transparent;
+            position: absolute;
+            top: 130px;
+            left: 350px;
+        }
+        .subject{
+           position: absolute;
+           border: 1.5px solid rgb(82, 77, 77);
+            border-bottom: 1.5px solid white;
+            width: 200px;
+            height: 30px;
+            background-color: transparent;
+            position: absolute;
+            top: 130px;
+            left: 600px;
+        }
+        .textarea{
+            color: gray;
+            position: absolute;
+           border: 1.5px solid rgb(82, 77, 77);
+            border-bottom: 1.5px solid white;
+            width: 600px;
+            height: 150px;
+            background-color: transparent;
+            position: absolute;
+            top: 200px;
+            left: 100px;
+        }
+        .button6{
+            border: 0;
+            background-color: orange;
+            height: 40px;
+            width: 130px;
+            color: white;
+            border-top-left-radius: 5em;
+            border-top-right-radius: 5em;
+            border-bottom-left-radius: 5em;
+            border-bottom-right-radius: 5em;
+            position: absolute;
+            top: 400px;
+            left: 100px;
+        }
+        .img6-2{
+            position: absolute;
+            top:20px;
+            left: 30px;
+        }
+        .img6-3{
+            border: 1.5px solid white;
+            background-color:transparent;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            position: absolute;
+            top:200px;
+            left: 180px;
+        }
+        .img6-4{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: small;
+            position: absolute;
+            top: 130px;
+            left:4px;
+        }
+        @media screen and (max-width:400px) {
+            .container6{
+            /* display: inline-flex; */
+            display: block;
+        }
+        .contact6-1{
+            width: 820px;
+            height: 200px;
+            position: relative;
+        }
+        .contact6-2{
+            width:250px;
+            height: 200px;
+            position: relative;
+            right: 10px;
+        }
+        .username{
+            border: 1.5px solid rgb(82, 77, 77);
+            border-bottom: 1.5px solid white;
+            width: 200px;
+            height: 30px;
+            background-color: transparent;
+            position: absolute;
+            top: 130px;
+            left: 100px;  
+        }
+        .email{
+           position: absolute;
+           border: 1.5px solid rgb(82, 77, 77);
+            border-bottom: 1.5px solid white;
+            width: 200px;
+            height: 30px;
+            background-color: transparent;
+            position: absolute;
+            top: 130px;
+            left: 350px;
+        }
+        .subject{
+           position: absolute;
+           border: 1.5px solid rgb(82, 77, 77);
+            border-bottom: 1.5px solid white;
+            width: 200px;
+            height: 30px;
+            background-color: transparent;
+            position: absolute;
+            top: 130px;
+            left: 600px;
+        }
+        .textarea{
+            color: gray;
+            position: absolute;
+           border: 1.5px solid rgb(82, 77, 77);
+            border-bottom: 1.5px solid white;
+            width: 600px;
+            height: 150px;
+            background-color: transparent;
+            position: absolute;
+            top: 200px;
+            left: 100px;
+        }
+        .button6{
+            border: 0;
+            background-color: orange;
+            height: 40px;
+            width: 130px;
+            color: white;
+            border-top-left-radius: 5em;
+            border-top-right-radius: 5em;
+            border-bottom-left-radius: 5em;
+            border-bottom-right-radius: 5em;
+            position: absolute;
+            top: 400px;
+            left: 100px;
+        }
+        .img6-2{
+            position: absolute;
+            top:20px;
+            left: 30px;
+        }
+        .img6-3{
+            border: 1.5px solid white;
+            background-color:transparent;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            position: absolute;
+            top:200px;
+            left: 180px;
+        }
+        .img6-4{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: small;
+            position: absolute;
+            top: 130px;
+            left:4px;
+        }
+        }
+
+              /* 7th part of the css project */
+
+              
+        footer {
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    background-color: lightgray;
+    color: white; 
+} 
+#p{
+    padding: 10px;
+}
+    </style>
+</head>
+<body>  
+
+<div class="mainproject">
+              <!-- 1st part of the projrct -->
+    <div class="container1">
+
+        <div class="banner">
+        <img class="img1" src="./banner-bg.png">
+        <p class="para">There you go</p>
+        <pre id="pre">    Clean & Minimal
+    Template</pre>
+        <button id="button">Discover More</button>
+        </div>
+
+        <div class="logo-container">
+            <img class="img2" src="./logo.png">
+            <h1 id="#">AVALON</h1>
+            <p CLASS="para-1">CREATE HTML TEMPLATE</p>
+            <p class="para-2">*Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cumque aliquid labore saepe corrupti officia totam odit! Quos illo aliquid optio, culpa rerum eos, alias, exercitationem qui maxime id tempore?</p>
+        </div>
+
+    </div>
+    
+
+                    <!-- 2nd part of the project -->
+
+     
+                    <div class="container2">
+                        <div>
+                            <img class="best1" src="./best-offer-bg.png">
+                            <div class="best4-1">
+                                <img class="best4" src="./best-offer-icon.png">
+                                <pre class="best4-2">BEST OFFER FOR YOU</pre>
+                            </div>
+                            </div>
+                    
+                            <div class="card">
+                                <h1></h1>
+                                <img class="best2" src="./best-offer-image.png">
+                                <div class="best3">
+                                <pre class="pre1">Awesome & Unique 
+Layout <span class="span1-1">Theme</span></pre>
+                    <pre class="pre2">
+            Avalon is a full-width responsive web template. please 
+            tell your friends about<span class="span1-1">templatemo.</span> Thank you.
+            Fell free to use this template. Lorem ipsum dolor 
+            sit amet consectetur adipisicing elit.Cura Bitur et
+            sem blandit, rhoncus ante, varius libero. Cras
+            elemen tum tincidunt ullamcorper</pre>
+                    
+                                <pre class="pre3">
+                    +Aenean eget ex faucibus, tempor nibh vel.
+                    +Bibendum tortor. Suspendisse a diam viverra.
+                    +Finibus ipsum et, imperdiet felis.
+                    +Donec laoreet efficitur ultrices sit amet enim.</pre>
+                    
+                                <button class="button-2">Discover More</button>
+                                </div>
+                            </div>
+                      </div>                   
+
+
+
+
+                    <!-- 3rd part of the project -->
+
+
+       <div class="container3">
+
+                        
+                            <div class="button31">
+                                <button id="button3-1">SHOW ALL</button>
+                                <button id="button3-2">DESIGN MEETING</button>
+                                <button id="button3-3">APP STARTUP</button>
+                                <button id="button3-4">WEB CONFERENCES</button>
+                            </div>
+
+                    <div class="mainflex">
+                            <div class="div1">
+                            <div class="div2">
+                            <pre class="para3-1">
+                               12
+                               May
+                            </pre>
+                            </div>
+                            <pre class="para3-2">
+                                FOUR LOKO FRANZEN
+                                </pre>
+                                <pre class="para3-2-1">
+                                Web Conferences
+                            </pre>
+                            <pre class="para3-3">
+                                8:00 AM - 11:00AM
+                                Saturday
+                            </pre>
+                            <button class="button3-1">I AM INTERESTED</button>
+                        </div>
+                        
+                    
+                    
+                    
+                    
+                    
+  
+                       <div class="div1-1">
+                      <div class="div2-1">
+                      <pre class="para3-1-1">
+                                      24
+                                     May
+                      </pre>
+                      </div>
+                      <pre class="para3-2-1">
+                          DRINK VINEGAR COLORING
+                          </pre>
+                          <pre class="para3-2-1-1">
+                          Design Meeting
+                      </pre>
+                      <pre class="para3-3-1">
+                          03:00 PM - 07:00PM
+                          Tuesday
+                      </pre>
+             <button class="button3-1-1">I AM INTERESTED</button>
+       </div>
+                      
+                    
+                    
+                    
+                    
+                    <div class="div1-2">
+                    <div class="div2-2">
+                    <pre class="para3-1-2">
+                       30
+                       Mar
+                    </pre>
+                    </div>
+                    <pre class="para3-2-2">
+                        CORE HAMMOCK STILLER
+                        </pre>
+                        <pre class="para3-2-1-2">
+                        App Start Up, Design Meeting
+                    </pre>
+                    <pre class="para3-3-2">
+                        03:00 PM - 09:30PM
+                        Friday
+                    </pre>
+                    <button class="button3-1-2">I AM INTERESTED</button>
+                    </div>
+                
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div class="div1-3">
+                    <div class="div2-3">
+                    <pre class="para3-1-3">
+                       22
+                       Mar
+                    </pre>
+                    </div>
+                    <pre class="para3-2-3">
+                        PALO SANTO ART PARTY
+                        </pre>
+                        <pre class="para3-2-1-3">
+                        Web Conferences
+                    </pre>
+                    <pre class="para3-3-3">
+                        10:00 AM - 05:00AM
+                        Thursday
+                    </pre>
+                    <button class="button3-1-3">I AM INTERESTED</button>
+                    </div>
+                    
+                    
+                
+                </div>
+                </div>
+
+
+
+                   <!-- 4th part of the project -->
+
+       <div class="container4">
+        <div class="card1">
+                <img class="test1" src="./testimonial-left-image.png"> 
+        </div>
+        
+        <div class="card2">
+            <img class="test2" src="./testimonial-bg.png">
+            <div>
+            <img class="test3" src="./author_02.png">
+            <div>
+            <p class="para4-1">Web Developer</p>
+            <h1 class="para4-2">JOHNNY Smith</h1>
+            <Pre class="para4-3">"Morbi elit est, pharetra enim a, faucibus dignissm augue. Quisque erat erat placerat non pulvinar eget,
+                 sodales eget ex. Cras pulvinar purus et rutrum faucibus"</Pre>
+            </div>
+            </div>
+        </div>
+        <div>
+            <ul class="uls">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        
+    </div>
+
+
+
+                  <!-- 5th part of the project -->
+
+
+    <div class="container5">
+      <div class="box1">
+            <div class="border1">
+                <img class="img5-1" src="./heart-icon.png">
+                <pre class="h1">ALIQUAM FINIBUS EST</h1>
+            </div>
+        </div>
+    
+    
+        <div class="box2">
+            <div class="border2">
+                <img class="img5-2" src="./home-icon.png">
+                <pre class="h2">NULLAM SED TURPIS</pre>
+            </div>
+        </div>
+    
+    
+        <div class="box3">
+            <div class="border3">
+                <img class="img5-3" src="./revision-icon.png">
+                <pre class="h3">SED IN LUCTUS</pre>
+            </div>
+        </div>
+    
+    
+        <div class="box4">
+            <div class="border4">
+                <img  class="img5-4" src="./chat-icon.png">
+                <pre class="h4">FUSCE CONGUE IPSUM</pre>
+            </div>
+        </div>
+    </div>
+
+
+                       
+                     <!-- 6th part of the project -->
+
+        <div class="container6">
+            <div class="contact6-1">
+                <img class="contact3" src="./contact-bg.png">
+                <input class="username" for="username" name="username" placeholder="Your name..">
+                <input class="email" for="email" name="email" placeholder="Your email..">
+                <input class="subject" for="subject" name="subject" placeholder="Subject...">
+                <textarea class="textarea">   
+         type a message...   
+                </textarea>
+           <button class="button6">SEND IT NOW</button>
+            </div>
+            <div class="contact6-2">
+                <img class="img6-1" src="./contact-right-bg.png">
+                <div class="img6-3">
+                    <img class="img6-2" src="./map-marker-icon.png">
+                    <pre class="img6-4">YOU CAN FIND USON MAPS</pre>
+                </div>
+            </div>
+            </div>
+
+                
+                        <!-- 7th part of the project -->
+
+            <footer>
+                <p id="p"> Copyright © 2018 Your Company - Avalon  by HTML5 Max</p>
+            </footer> 
+
+
+
+
+            </div>
+</body>
+</html>
